@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hilalyildirim\\source\\repos\\SeturDirectoryApp\\SeturDirectoryApp\\SeturDirectoryApp.csproj": {}
+    "C:\\Users\\hilalyildirim\\Documents\\GitHub\\assessment-backend-net\\SeturDirectoryApp\\SeturDirectoryApp\\SeturDirectoryApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hilalyildirim\\source\\repos\\SeturDirectoryApp\\SeturDirectoryApp\\SeturDirectoryApp.csproj": {
+    "C:\\Users\\hilalyildirim\\Documents\\GitHub\\assessment-backend-net\\SeturDirectoryApp\\SeturDirectoryApp\\SeturDirectoryApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hilalyildirim\\source\\repos\\SeturDirectoryApp\\SeturDirectoryApp\\SeturDirectoryApp.csproj",
+        "projectUniqueName": "C:\\Users\\hilalyildirim\\Documents\\GitHub\\assessment-backend-net\\SeturDirectoryApp\\SeturDirectoryApp\\SeturDirectoryApp.csproj",
         "projectName": "SeturDirectoryApp",
-        "projectPath": "C:\\Users\\hilalyildirim\\source\\repos\\SeturDirectoryApp\\SeturDirectoryApp\\SeturDirectoryApp.csproj",
+        "projectPath": "C:\\Users\\hilalyildirim\\Documents\\GitHub\\assessment-backend-net\\SeturDirectoryApp\\SeturDirectoryApp\\SeturDirectoryApp.csproj",
         "packagesPath": "C:\\Users\\hilalyildirim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hilalyildirim\\source\\repos\\SeturDirectoryApp\\SeturDirectoryApp\\obj\\",
+        "outputPath": "C:\\Users\\hilalyildirim\\Documents\\GitHub\\assessment-backend-net\\SeturDirectoryApp\\SeturDirectoryApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hilalyildirim\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,24 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
